@@ -1,0 +1,14 @@
+.content-holder {
+  border-radius: 12px;
+  padding: 10px;
+  color: #ffffff;
+  display: inline-block;
+  font-family: "Roboto", "Arial";
+  font-weight: 400;
+  font-size: 13px;
+}
+.content-holder .img-holder {
+  width: 82px;
+  height: 82px;
+  border-radius: 13px;
+}

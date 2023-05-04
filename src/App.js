@@ -1,10 +1,10 @@
+import Content from "./components/Content/Content";
 import "./styles.css";
 
 export default function App() {
   return (
     <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
+      <Content align="left" text="Hello" background="#260B1A" />
     </div>
   );
 }

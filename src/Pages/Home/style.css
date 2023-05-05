@@ -1,0 +1,42 @@
+.home-outer-div {
+  height: 100vh;
+  background: linear-gradient(291.37deg, #050205 20.27%, #2e0c28 81.84%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  min-height: 840px;
+}
+
+.home-outer-div .navbar {
+  width: 80%;
+  margin-top: 80px;
+}
+
+.home-outer-div .dp-outer-div {
+  margin-top: 70px;
+}
+
+.home-outer-div .h1 {
+  margin-bottom: 0px;
+}
+
+.subtitle {
+  margin-top: 0px;
+}
+
+.home-outer-div svg {
+  margin-top: 60px;
+  animation: falling-arrow 2s ease-out infinite;
+}
+
+@keyframes falling-arrow {
+  from {
+    transform: translateY(0%);
+    opacity: 100%;
+  }
+  to {
+    transform: translateY(50%);
+    opacity: 0%;
+  }
+}

@@ -6,6 +6,8 @@ import DownArrow from "../../assets/downArrow";
 import "./style.css";
 
 const Home = () => {
+  const profileOverview =
+    "Hey there! I'm a creative frontend developer who loves crafting beautiful user interfaces with React, CSS, and JavaScript. With 2 years of experience under my belt, I enjoy bringing designs to life and making websites come alive!";
   return (
     <div className="home-outer-div">
       <Navbar className="navbar-home" />
@@ -13,13 +15,7 @@ const Home = () => {
       <h2>Abhimanyu Das</h2>
       <p className="subtitle">Frontend Developer</p>
       <div className="content-div">
-        <Content
-          height="80px"
-          width="300px"
-          text={
-            "Lorem ipsum dolor sit amet consectetur. In posuere diam at risus odio faucibus. Pellentesque urna maecenas diam ut ornare senectus vel dignissim."
-          }
-        />
+        <Content height="80px" width="300px" text={profileOverview} />
       </div>
       <DownArrow />
     </div>

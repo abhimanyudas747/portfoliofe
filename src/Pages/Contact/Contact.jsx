@@ -6,7 +6,7 @@ import "./style.css";
 
 const Contact = () => {
   const footerText =
-    "Lorem ipsum dolor sit amet consectetur. Purus blandit congue ultrices porttitor lacus rhoncus. Rhoncus vulputate sed semper netus.";
+    "Copyright © 2023 Abhimanyu Das. All rights reserved. Copyright covers all content on this website, including images and design.";
   return (
     <div className="contact-outer-div">
       <h3>Send me a Message</h3>
@@ -18,7 +18,9 @@ const Contact = () => {
       <div className="btn">
         <button>Send</button>
       </div>
-      <BackToTop id="btt" />
+      <span id="btt">
+        <BackToTop />
+      </span>
       <div className="footer">
         <div className="socials">
           <InstagramLogo />

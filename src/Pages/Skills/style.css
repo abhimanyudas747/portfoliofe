@@ -1,10 +1,11 @@
 .skills-outer-div {
-  height: 100vh;
+  min-height: 100vh;
   background: #1e1e1e;
   display: flex;
   flex-direction: column;
   padding: 0px 32px;
   padding-top: 90px;
+  padding-bottom: 90px;
 }
 .skills-outer-div h1 {
   margin-bottom: 40px;

@@ -7,7 +7,7 @@
   row-gap: 50px;
 }
 
-.contact-outer-div .h3 {
+.contact-outer-div h3 {
   margin-top: 120px;
 }
 
@@ -44,6 +44,7 @@
   border-radius: 10px;
   border: none;
   cursor: pointer;
+  color: #fff;
 }
 
 .footer {
@@ -55,6 +56,10 @@
   row-gap: 30px;
 }
 
+.footer .content-holder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
 .footer .socials {
   display: flex;
   justify-content: space-evenly;
@@ -62,5 +67,5 @@
 }
 
 #btt {
-  margin-top: 20px;
+  margin-top: 40px;
 }

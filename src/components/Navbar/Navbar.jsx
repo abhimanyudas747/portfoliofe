@@ -19,9 +19,12 @@ const Navbar = () => {
   return (
     <div className="navbar">
       {options.map((obj) => (
-        <span className="nav-item">
-          <a href={obj.link}>{obj.name}</a>
-        </span>
+        <>
+          <span className="nav-item">
+            <a href={obj.link}>{obj.name}</a>
+          </span>
+          <div className='separator'></div>
+        </>
       ))}
     </div>
   );
